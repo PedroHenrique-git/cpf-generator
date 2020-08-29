@@ -14,7 +14,7 @@
 </p>
 
 <p align="left">
-    Clonar projeto: git clone https://github.com/PedroHenrique-git/Pokedex.git
+    Clonar projeto: git clone https://github.com/PedroHenrique-git/GeradorDeCpf.git
 </p>
  
- ![VISUAL](captura.PNG)
+ ![VISUAL](exemplo.PNG)
