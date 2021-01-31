@@ -1,4 +1,4 @@
-<h1>Gerador de cpf</h1>
+<h1>Cpf generator</h1>
 
 <p align="left">
   Cpf generator made using html, css, pure JavaScript and webpack<br>
