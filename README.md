@@ -23,10 +23,6 @@ open the files on a server, the vscode live server extension is very good
     </ul>
 </p>
 
-## Images
-
-<img src="exemplo.png"/>
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
