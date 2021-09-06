@@ -1,26 +1,27 @@
-const path = require('path'); // CommonJS
+
+const path = require("path");
 
 module.exports = {
-  mode: 'production',
-  entry: './src/main.js',
-  output: {
-    path: path.resolve(__dirname, 'public', 'assets', 'js'),
-    filename: 'bundle.js'
-  },
+  mode: "development",
+  entry: "./src/index.ts",
   module: {
-    rules: [{
-      exclude: /node_modules/,
-      test: /\.js$/,
-      use: {
-        loader: 'babel-loader',
+    rules: [
+      {
+        test: /\.tsx?$/,
+        loader: "ts-loader",
+        exclude: /node_modules/,
         options: {
-          presets: ['@babel/env']
-        }
-      }
-    }, {
-      test: /\.css$/,
-      use: ['style-loader', 'css-loader']
-    }]
+          configFile: "tsconfig.json",
+        },
+      },
+    ],
   },
-  devtool: 'source-map'
+  resolve: {
+    extensions: [".tsx", ".ts", ".js"],
+  },
+  output: {
+    filename: "bundle.js",
+    path: path.resolve(__dirname, "frontend", "assets", "js"),
+  },
+  devtool: "source-map",
 };
