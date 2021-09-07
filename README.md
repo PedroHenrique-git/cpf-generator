@@ -1,8 +1,12 @@
 <h1>Cpf generator</h1>
 
 <p align="left">
-  Cpf generator made using html, css, javaScript and webpack<br>
+  Cpf generator made using html, css, typescript and webpack<br>
 </p>
+
+## Demo
+
+you can see the app online here: https://pedrohenrique-git.github.io/cpf-generator/
 
 ### Dependencies
 
