@@ -1,27 +1,23 @@
 <h1>Cpf generator</h1>
 
 <p align="left">
-  Cpf generator made using html, css, pure JavaScript and webpack<br>
+  Cpf generator made using html, css, javaScript and webpack<br>
 </p>
 
-## Getting Started
+### Dependencies
 
-install dependencies: <b>npm install</b> 
+<a href="https://developer.mozilla.org/en-US/docs/Web/HTML">Html</a><br/>
+<a href="https://developer.mozilla.org/en-US/docs/Web/CSS">Css</a><br/>
+<a href="https://www.typescriptlang.org/">Typescript</a><br/>
+<a href="https://webpack.js.org/">Webpack</a><br/>
 
-modify files: <b>npm run dev</b>
+### Installing
 
-open the files on a server, the vscode live server extension is very good
+execute the command: <b>npm i</b>
 
-## Built With
+### Executing program
 
-<p align="left">
-    <ul>
-        <li><a href="https://developer.mozilla.org/pt-BR/docs/Aprender/JavaScript">JavaScript</a></li>
-        <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML">Html</a></li>
-        <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS">Css</a></li>
-       <li><a href="https://webpack.js.org/">WebPack</a></li>
-    </ul>
-</p>
+execute the commands: <b>npm run dev</b> and open the <b>index.html</b>
 
 ## License
 
